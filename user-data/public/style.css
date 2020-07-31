@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Libre Baskerville", serif;
+  background: #f4f3f3;
+}
+
+.container {
+  margin: auto;
+  max-width: 1100px;
+  overflow: auto;
+}
+
+#navbar {
+  background: white;
+  overflow: auto;
+  border-bottom: 0.1rem gainsboro solid;
+}
+
+#logo {
+  height: 60px;
+  float: left;
+  padding-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 5px;
+}
+#navbar h1 {
+  font-family: "Libre Baskerville", serif;
+  font-size: 1.5em;
+  float: left;
+  padding-top: 25px;
+  color: #444;
+}
+
+#navbar ul {
+  list-style: none;
+  float: right;
+}
+
+#navbar li {
+  float: left;
+  padding: 20px;
+}
+
+#navbar li button {
+  display: block;
+  margin: 5px 0 0 0;
+  padding: 5px 60px;
+  color: #444;
+  border-radius: 5px;
+  border-style: none;
+  border: 1px solid #cc28d2;
+  background: white;
+  /* background: #cc28d2;
+  background: #cc28d2;
+  background: #cc28d2;
+  background: -webkit-linear-gradient(bottom left, #cc28d2, #1f85b1);
+  background: -moz-linear-gradient(bottom left, #cc28d2, #1f85b1);
+  background: linear-gradient(to top right, #cc28d2, #1f85b1); */
+  opacity: 60%;
+}
+#navbar li button:hover {
+  display: block;
+  padding: 5px 60px;
+  color: #fff;
+  border-radius: 5px;
+  border-style: none;
+  background: #cc28d2;
+  background: #cc28d2;
+  background: #cc28d2;
+  background: -webkit-linear-gradient(bottom left, #1f85b1, #cc28d2);
+  background: -moz-linear-gradient(bottom left, #1f85b1, #cc28d2);
+  background: linear-gradient(to top right, #1f85b1, #cc28d2);
+  opacity: 60%;
+}
+
+#wrapper table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+#wrapper img {
+  border: 0;
+  max-width: 100%;
+}
+
+#wrapper h1 {
+  font-family: "Amarante", Tahoma, sans-serif;
+  font-weight: bold;
+  font-size: 3.6em;
+  line-height: 1.7em;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+#wrapper button {
+  border-style: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+#wrapper i {
+  color: #444;
+}
+
+#wrapper i:hover {
+  color: #acc8dd;
+}
+.clr {
+  clear: both;
+}
+
+/** page structure **/
+/* #wrapper {
+    display: block;
+    width: 850px;
+    background: #fff;
+    margin: 0 auto;
+    padding: 10px 17px;
+    -webkit-box-shadow: 2px 2px 3px -1px rgba(0, 0, 0, 0.35);
+  } */
+
+#keywords {
+  margin: 0 auto;
+  font-size: 1.2em;
+  margin-bottom: 15px;
+}
+
+#keywords thead {
+  cursor: pointer;
+  background: #c9dff0;
+}
+#keywords thead tr th {
+  font-family: "Libre Baskerville", serif;
+  font-weight: bold;
+  text-align: center;
+  padding: 12px 30px;
+  padding-left: 42px;
+}
+#keywords thead tr th span {
+  padding-right: 20px;
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+}
+
+#keywords thead tr th.headerSortUp,
+#keywords thead tr th.headerSortDown {
+  background: #acc8dd;
+}
+
+#keywords thead tr th.headerSortUp span {
+  background-image: url("https://i.imgur.com/SP99ZPJ.png");
+}
+#keywords thead tr th.headerSortDown span {
+  background-image: url("https://i.imgur.com/RkA9MBo.png");
+}
+
+#keywords tbody tr {
+  color: #555;
+}
+#keywords tbody tr td {
+  font-family: "Libre Baskerville", serif;
+  font-size: 15px;
+  text-align: center;
+  padding: 15px 10px;
+}
+#keywords tbody tr td.lalign {
+  text-align: left;
+}
